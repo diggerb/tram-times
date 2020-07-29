@@ -6,4 +6,4 @@ To update the script for yourself ideally you'd use your own cookie (I think a c
 
 eg.
 
-https://www.robinhoodnetwork.co.uk/explore?marker=Middle%20Street%20Tram%20Stop&center=52.92783%2C-1.209046&type=stop&id=9400ZZNOMID2 gives the following ID
+https://www.robinhoodnetwork.co.uk/explore?marker=Middle%20Street%20Tram%20Stop&center=52.92783%2C-1.209046&type=stop&id=9400ZZNOMID2 is the away-from-city bound stop at Middle Street. However because the API is incorrectly built, this ID (9400ZZNOMID2) would return the in-to-city bound live tram times.
